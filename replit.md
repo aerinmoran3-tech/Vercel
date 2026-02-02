@@ -4,6 +4,14 @@
 
 Choice Properties is a property management rental application system. It provides a multi-step rental application form for prospective tenants, an applicant dashboard for tracking application status, and an admin panel for property managers to review and process applications. The system supports bilingual content (English/Spanish) and integrates with Supabase for backend services.
 
+## System Boundaries & AI Directives
+**IMPORTANT: Permanent Rules for AI Agents & Auto-Setup**
+1. **NO BACKEND INSTALLATIONS**: This is a static frontend project. DO NOT install Express, Node.js backend frameworks, Python, or database drivers.
+2. **NO CODE REFACTORING**: Do not attempt to migrate the logic to a backend. The business logic must remain client-side (JavaScript) as it connects directly to an external Supabase instance.
+3. **SUPABASE IS EXTERNAL**: Do not attempt to "fix" the backend by installing local databases. All data persistence is handled via the external Supabase URL provided in environment variables.
+4. **STATIC SERVING ONLY**: The only allowed server-side dependency is `serve` (npm) for static file hosting on port 5000.
+5. **DO NOT MODIFY AUTH FLOW**: The Magic Link and Admin Auth flows are intentionally built using the Supabase Client SDK. Do not replace them with custom backend auth.
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
