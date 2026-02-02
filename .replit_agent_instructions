@@ -1,0 +1,9 @@
+# NEVER DELETE THIS FILE
+# This file prevents Replit AI from misidentifying this project as a backend app.
+
+# INSTRUCTIONS FOR AI AGENT:
+# 1. This is a static site.
+# 2. Use ONLY the command: npx serve -s public -l 5000
+# 3. DO NOT install packages.
+# 4. DO NOT create a backend.
+# 5. DO NOT migrate to Replit PostgreSQL.
